@@ -105,7 +105,7 @@ void DIO_VIDgetPinDirection(u8 cpy_u8PortNumber,u8 cpy_u8PinNumber,u8* buf_u8val
 		*buf_u8value = getBit(PINC,cpy_u8PinNumber);
 		break;
 	case PORT_D:
-		*buf_u8value = getBit(PINA,cpy_u8PinNumber);
+		*buf_u8value = getBit(PIND,cpy_u8PinNumber);
 		break;
 	default:
 		break;
